@@ -6,7 +6,7 @@ if(time > 12){
     time = time - 12 + 'pm';
 } else { time = time + 'am';
 }
-let timeofday = '' ;
+let timeofday = Image ;
 if (time < 12){
     timeofday= image.src = 'https://i.pinimg.com/originals/5c/bb/a7/5cbba7c24bded7fdfda03c39d2fe7a91.png'
 }else if (time < 17){
