@@ -10,16 +10,16 @@ let timeofday = '';
 if (time < 12){
     timeofday = 'Good Morning!!';
 }else if (time < 17){
-    timeofday = 'Good Afternoon!!'
+    timeofday = 'Good Afternoon!!';
 }else{
-    timeofday = 'Good Evening!!'
+    timeofday = 'Good Evening!!';
 }
 let greeting = '';
 
 if(answer === 'chris'){
-    greeting = 'Hello '+ answer +'!! '+ timeofday +' Welcome to the Game Cafe ' + time;
+    greeting = 'Hello '+ answer +'!! ' +' Welcome to the Game Cafe ' + time;
 }else {
-    greeting = 'Hello '+ answer +'!! '+ timeofday +' Welcome to the Game Cafe '+ time;
+    greeting = 'Hello '+ answer +'!! ' +' Welcome to the Game Cafe '+ time;
 }
 
 document.write(greeting);
