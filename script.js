@@ -1,6 +1,6 @@
 'use strict'
 
-let name = prompt('What is your name?');
+let answer = prompt('What is your name?');
 let time = new Date().getHours();
 if(time > 12){
     time= time - 12 + 'pm';
@@ -9,9 +9,9 @@ if(time > 12){
 let greeting = '';
 
 if(answer === 'chris' ){
-    greeting = 'Hello '+ name+'!! '+'Welcome to the Game Cafe' + time;
+    greeting = 'Hello '+ answer+'!! '+'Welcome to the Game Cafe' + time;
 }else {
-    greeting = 'Hello '+ name+'!! '+'Welcome to the Game Cafe'+ time;
+    greeting = 'Hello '+ answer+'!! '+'Welcome to the Game Cafe'+ time;
 }
 document.write(greeting);
 
