@@ -8,11 +8,12 @@ if(time > 12){
 }
 let greeting = '';
 
-if(answer === 'chris' ){
-    greeting = 'Hello '+ answer+'!! '+'Welcome to the Game Cafe' + time;
+if(answer === 'chris'){
+    greeting = 'Hello '+ answer +'!! '+'Welcome to the Game Cafe' + time;
 }else {
     greeting = 'Hello '+ answer +'!! '+'Welcome to the Game Cafe'+ time;
 }
+
 document.write(greeting);
 
 
