@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:fantasy;
+    background-image: url(https://i.redd.it/as8d6s3tdhp11.jpg);
+    background-repeat:repeat;
+    background-size: 200px;
+    
+}
+
+ul{ margin: 0;
+    padding: 0;
+
+}
+
+li{ list-style: none;
+}
+
+header{
+    background: red;
+    height: 150px;
+}
+
+h1{float:left;
+    margin-left: 50px;
+    margin-right:50px;
+    margin-top: 10px;
+    color: ivory;
+    font-size: 60px;
+}
+
+nav li{
+    display:inline-block;
+    margin-right: 50px;
+    margin-top: 80px ;
+
+}
+nav li a{    color: black;
+    font-size: 40px;}
+
+nav li a:hover{ color: ivory}
+
+main{
+    width: 960px;
+    margin: 30px auto;
+    min-height: 700px;
+}
+main p{text-align: center; 
+font-size: 25px;}
+
+
+main li{
+    float: left;
+    margin-right: 30px;
+    
+    
+}
+
+main li:last-child{margin-right: 0px;
+}
+
+#Coffee{
+    height: 450px;
+    width: 960px;
+}
+.bowser{
+    height: 150px;
+    width: 300px;
+    
+    
+
+}
+
+footer{background: red;
+height: 50px;}
+footer p{padding-top: 30px;}
+
+
