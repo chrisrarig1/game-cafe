@@ -10,7 +10,7 @@ if( game === 'yes'){
 let coffee = prompt('Do you like coffee?');
 let drink = '';
 if( coffee === 'yes'){
-    drink = 'Looks like upu need more Coffee!!';
+    drink = 'Looks like you need more Coffee!!';
 }else{
     drink = 'Drink more Coffee!!';
 }
