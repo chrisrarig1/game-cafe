@@ -6,14 +6,6 @@ if(time > 12){
     time = time - 12 + 'pm';
 } else { time = time + 'am';
 }
-let timeofday = '';
-if (time < 12){
-    timeofday = 'Good Morning!!';
-}else if (time < 17){
-    timeofday = 'Good Afternoon!!';
-}else{
-    timeofday = 'Good Evening!!';
-}
 let greeting = '';
 
 if(answer === 'chris'){
