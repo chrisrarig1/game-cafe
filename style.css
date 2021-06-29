@@ -38,7 +38,7 @@ nav li{
 nav li a{    color: black;
     font-size: 40px;}
 
-nav li a:hover{ color: ivory}
+nav li a:hover{ color:#23F}
 
 main{
     width: 960px;
@@ -52,6 +52,7 @@ font-size: 25px;}
 main li{
     float: left;
     margin-right: 30px;
+
     
 }
 
