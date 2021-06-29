@@ -59,6 +59,7 @@ function getgreeting(timeOfDay,name,drink,time,gamer){
     } else{
         greeting = timeOfDay  + ' ' + name + " " + drink + " The time is" + time + " " + gamer;
     } 
+    return greeting;
 }
 
 function writeToDocument(message){
