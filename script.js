@@ -52,12 +52,12 @@ function getamorpm(time){
     return time;
 }
 
-function getgreeting(timeOfDay,name,drink,time,gamer){
+function getgreeting(timeOfDay,name,drink,amorpm,gamer){
     let greeting = '';
     if(name === 'Chris'){
-        greeting = timeOfDay  + ' ' + name + " " + drink + " The time is" + time + " " + gamer;
+        greeting = timeOfDay  + ' ' + name + " " + drink + " The time is" + amorpm + " " + gamer;
     } else{
-        greeting = timeOfDay  + ' ' + name + " " + drink + " The time is" + time + " " + gamer;
+        greeting = timeOfDay  + ' ' + name + " " + drink + " The time is" + amorpm + " " + gamer;
     } 
     return greeting;
 }
@@ -69,7 +69,7 @@ function writeToDocument(message){
 let timeOfDay = gettimeofday(time);
 let name = getname();
 let drink = getgamer();
-let time = getamorpm(time);
+let amorpm = getamorpm(time);
 let greeting = getgreeting(timeOfDay,name,drink,time,gamer)
 
 
