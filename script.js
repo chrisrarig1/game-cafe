@@ -68,7 +68,8 @@ function writeToDocument(message){
 
 let timeOfDay = gettimeofday(time);
 let name = getname();
-let drink = getgamer();
+let gamer = getgamer();
+let drink = getcoffee();
 let amorpm = getamorpm(time);
 let greeting = getgreeting(timeOfDay,name,drink,amorpm,gamer)
 
