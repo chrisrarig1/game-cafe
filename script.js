@@ -29,9 +29,6 @@ function getname(){
 }
 
 
-
-
-
 function gettimeofday(time){
     let timeOfDay = '';
     if(time < 12){
@@ -63,6 +60,11 @@ function getgreeting(timeOfDay,name,drink,time,gamer){
         greeting = timeOfDay  + ' ' + name + " " + drink + " The time is" + time + " " + gamer;
     } 
 }
+
+function writeToDocument(message){
+    document.write(message);
+}
+
 let timeOfDay = gettimeofday(time);
 let name = getname();
 let drink = getgamer();
@@ -70,7 +72,7 @@ let time = getamorpm(time);
 let greeting = getgreeting(timeOfDay,name,drink,time,gamer)
 
 
-document.write(greeting);
+writeToDocument(greeting);
 
 
 
