@@ -58,9 +58,9 @@ function getamorpm(time){
 function getgreeting(timeOfDay,name,drink,time,gamer){
     let greeting = '';
     if(name === 'Chris'){
-        greeting = timeOfDay  + ' ' + name + " " + drink + " " + time + " " + gamer;
+        greeting = timeOfDay  + ' ' + name + " " + drink + " The time is" + time + " " + gamer;
     } else{
-        greeting = timeOfDay  + ' ' + name + " " + drink + " " + time + " " + gamer;
+        greeting = timeOfDay  + ' ' + name + " " + drink + " The time is" + time + " " + gamer;
     } 
 }
 let timeOfDay = gettimeofday(time);
