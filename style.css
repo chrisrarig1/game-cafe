@@ -45,24 +45,42 @@ main{
     margin: 30px auto;
     min-height: 700px;
 }
-main p{text-align: center; 
-font-size: 25px;}
-
-
-main li{
-    float: left;
-    margin-right: 30px;
-
-    
-}
-
-main li:last-child{margin-right: 0px;
-}
 
 #Coffee{
     height: 450px;
     width: 960px;
 }
+
+main p{text-align: center; 
+    font-size: 25px;}
+
+.boo{
+     
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+main li{
+    float: left;
+    margin-right: 30px;
+    margin-top: 50px;
+
+    
+}
+
+
+
+main li:last-child{margin-right: 0px;
+}
+
+
 .bowser{
     height: 150px;
     width: 300px;
@@ -72,7 +90,7 @@ main li:last-child{margin-right: 0px;
 }
 
 footer{background: red;
-height: 50px;}
+height: 100px;}
 footer p{padding-top: 30px;}
 
 

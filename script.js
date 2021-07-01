@@ -1,6 +1,15 @@
 'use strict'
 
 let time = new Date().getHours(); //15
+
+let howmany = prompt ('How many hrs a week do you play video games?');
+
+for(let ii=0;ii< howmany; ii++){
+    document.write('<img class="boo" src="1200px-Big_Boo_SM3DW_Prima.jpg"/>');
+}
+
+
+
 function getgamer(){
     let game = prompt('Do you like video games?');
     let gamer = '';
@@ -76,6 +85,11 @@ let greeting = getgreeting(timeOfDay,name,drink,amorpm,gamer)
 
 writeToDocument(greeting);
 
+/* let howmany = prompt ('How many hrs a week do you play video games?');
+
+for(let ii=0;ii< howmany, ii++){
+    document.write('<img class="boo" src="1200px-Big_Boo_SM3DW_Prima.jpg"/>');
+} */
 
 
 
